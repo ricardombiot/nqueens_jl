@@ -2,10 +2,15 @@ function test_create_chessboard_map_n4()
     n = Color(4)
     board = Chessboard.new(n)
 
+    color = 1
     for row in 1:n
         for col in 1:n
+            @test row == Alias.get_step_by_color(n, color)
+
             color_cell = Chessboard.get_color_cell(n, row, col)
+            #println("$color , $n $color_cell")
             @test color_cell in board.all_colors
+            color +=1
         end
     end
 

@@ -98,7 +98,11 @@ module Chessboard
         end
 
         function get_color_cell(n :: Color, row_cell :: Color, col_cell :: Color) :: Color
-                return (row_cell-1)*n + col_cell
+                return Alias.get_color_cell(n,row_cell,col_cell)
+        end
+
+        function get_color_compatibles(board :: ChessboardMap, color :: Color) :: Set{Color}
+                return board.table_compatibilities[color]
         end
 
 end
