@@ -1,7 +1,7 @@
 function test_create_chessboard_map_n4()
     n = Color(4)
     board = Chessboard.new(n)
-
+    
     color = 1
     for row in 1:n
         for col in 1:n

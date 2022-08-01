@@ -27,6 +27,7 @@ module Timeline
         # Start Cell
         init_cell!(timeline, step, color)
         push!(timeline.pivot_colors, color)
+
         # Board Cells
         for row in 1:n
             step += 1
@@ -48,10 +49,23 @@ module Timeline
             timeline.table[step] = Dict{Color, TimelineCellData}()
         end
 
-        timeline.table[step][color] = TimelineCell.new(color)
+        timeline.table[step][color] = TimelineCell.new(step, color)
     end
 
-    function get_cell(timeline :: TimelineTable, step :: Step, color :: Color) :: Union{TimelineCellData, Nothing}
+    function get_step(timeline :: TimelineTable, step :: Step) :: Union{Dict{Color, TimelineCellData}, Nothing}
+        if !haskey(timeline.table, step)
+            return nothing
+        end
+
+        return timeline.table[step]
+    end
+
+    function get_cell(timeline :: TimelineTable, color :: Color) :: Union{TimelineCellData, Nothing}
+        step = Alias.get_step_by_color(timeline.n, color)
+        return secure_get_cell(timeline, step, color)
+    end
+
+    function secure_get_cell(timeline :: TimelineTable, step :: Step, color :: Color) :: Union{TimelineCellData, Nothing}
         if !haskey(timeline.table, step)
             return nothing
         end
@@ -63,5 +77,9 @@ module Timeline
         return timeline.table[step][color]
     end
 
+    function success_cell_execution!(timeline :: TimelineTable, color :: Color)
+        cell_selected = get_cell(timeline,color)
+        cell_selected.was_success_executed = true
+    end
 
 end
