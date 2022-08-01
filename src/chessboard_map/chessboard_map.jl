@@ -102,7 +102,19 @@ module Chessboard
         end
 
         function get_color_compatibles(board :: ChessboardMap, color :: Color) :: Set{Color}
-                return board.table_compatibilities[color]
+                if haskey(board.table_compatibilities, color)
+                        return board.table_compatibilities[color]
+                else
+                        return Set{Color}()
+                end
+        end
+
+        function get_color_incompatibles(board :: ChessboardMap, color :: Color) :: Set{Color}
+                if haskey(board.table_incompatibilities, color)
+                        return board.table_incompatibilities[color]
+                else
+                        return Set{Color}()
+                end
         end
 
 end
