@@ -60,6 +60,11 @@ module Timeline
         return timeline.table[step]
     end
 
+    function get_pivot_end_cell(timeline :: TimelineTable) :: Union{TimelineCellData, Nothing}
+        color = Alias.get_color_pivot_end_cell(timeline.n)
+        return get_cell(timeline, color)
+    end
+
     function get_cell(timeline :: TimelineTable, color :: Color) :: Union{TimelineCellData, Nothing}
         step = Alias.get_step_by_color(timeline.n, color)
         return secure_get_cell(timeline, step, color)
