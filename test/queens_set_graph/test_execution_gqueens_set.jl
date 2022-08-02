@@ -1,6 +1,6 @@
 function test_execution_gqueensset()
     #Init
-    n = Color(9)
+    n = Color(10)
     board = Chessboard.new(n)
     Chessboard.build!(board)
 

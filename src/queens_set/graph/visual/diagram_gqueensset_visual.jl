@@ -78,7 +78,7 @@ module DiagramGraphQueensSet
         #node_label_html *= "<BR /><FONT POINT-SIZE=\"8\">Sons: $sons_nodes_txt</FONT>"
         #node_label_html *= owners_html
 
-        node_label_html *= draw_owners_by_step(diagram, path_id_node)
+        #node_label_html *= draw_owners_by_step(diagram, path_id_node)
         node_label_html *= ">"
 
         diagram.dot_txt *=  "$key_node [label=$node_label_html]"
