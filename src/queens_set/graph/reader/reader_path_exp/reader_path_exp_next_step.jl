@@ -67,14 +67,16 @@ function derive_fixed_next!(exp_solver :: PathSolutionExpReader, path :: PathSol
         for node_id in sons
             copy_path = deepcopy(path)
             copy_path.next_node_id = node_id
-
+            #println(" --- Derive ---")
+            #selected = Alias.as_key(node_id)
+            #println("Selected: [$selected]")
             PathReader.reduce_graph!(copy_path)
             if is_valid_selection(copy_path)
                 push!(next_solvers, copy_path)
             else
                 println("Warning: After clear graph not valid")
-                #graph_plot(exp_solver, copy_path)
             end
+            #println(" --- End Derive ---")
 
             total_sons += 1
             if max_count_total_sons == total_sons-1

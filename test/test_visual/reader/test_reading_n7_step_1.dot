@@ -1,0 +1,120 @@
+digraph G {
+     compound=true 
+subgraph cluster_line_0 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k0_ROOT [label=<<BR /> ID: k0.ROOT <BR /><BR /><FONT POINT-SIZE="8">Parents: </FONT><BR /><FONT POINT-SIZE="8">Sons: k6.0,</FONT>>]
+     fontsize="12" 
+     label = "Line 0 " 
+ }
+subgraph cluster_line_1 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k6_0 [label=<<BR /> ID: k6.0 <BR /><BR /><FONT POINT-SIZE="8">Parents: k0.ROOT,</FONT><BR /><FONT POINT-SIZE="8">Sons: k9.6,k10.6,k8.6,k11.6,</FONT>>]
+     fontsize="12" 
+     label = "Line 1 " 
+ }
+subgraph cluster_line_2 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k10_6 [label=<<BR /> ID: k10.6 <BR /><BR /><FONT POINT-SIZE="8">Parents: k6.0,</FONT><BR /><FONT POINT-SIZE="8">Sons: k15.10,k21.10,k19.10,</FONT>>]k9_6 [label=<<BR /> ID: k9.6 <BR /><BR /><FONT POINT-SIZE="8">Parents: k6.0,</FONT><BR /><FONT POINT-SIZE="8">Sons: k19.9,</FONT>>]k8_6 [label=<<BR /> ID: k8.6 <BR /><BR /><FONT POINT-SIZE="8">Parents: k6.0,</FONT><BR /><FONT POINT-SIZE="8">Sons: k17.8,</FONT>>]k11_6 [label=<<BR /> ID: k11.6 <BR /><BR /><FONT POINT-SIZE="8">Parents: k6.0,</FONT><BR /><FONT POINT-SIZE="8">Sons: k21.11,k16.11,</FONT>>]
+     fontsize="12" 
+     label = "Line 2 " 
+ }
+subgraph cluster_line_3 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k19_9 [label=<<BR /> ID: k19.9 <BR /><BR /><FONT POINT-SIZE="8">Parents: k9.6,</FONT><BR /><FONT POINT-SIZE="8">Sons: k22.19,</FONT>>]k15_10 [label=<<BR /> ID: k15.10 <BR /><BR /><FONT POINT-SIZE="8">Parents: k10.6,</FONT><BR /><FONT POINT-SIZE="8">Sons: k25.15,</FONT>>]k16_11 [label=<<BR /> ID: k16.11 <BR /><BR /><FONT POINT-SIZE="8">Parents: k11.6,</FONT><BR /><FONT POINT-SIZE="8">Sons: k28.16,</FONT>>]k17_8 [label=<<BR /> ID: k17.8 <BR /><BR /><FONT POINT-SIZE="8">Parents: k8.6,</FONT><BR /><FONT POINT-SIZE="8">Sons: k26.17,</FONT>>]k19_10 [label=<<BR /> ID: k19.10 <BR /><BR /><FONT POINT-SIZE="8">Parents: k10.6,</FONT><BR /><FONT POINT-SIZE="8">Sons: k28.19,</FONT>>]k21_11 [label=<<BR /> ID: k21.11 <BR /><BR /><FONT POINT-SIZE="8">Parents: k11.6,</FONT><BR /><FONT POINT-SIZE="8">Sons: k22.21,</FONT>>]k21_10 [label=<<BR /> ID: k21.10 <BR /><BR /><FONT POINT-SIZE="8">Parents: k10.6,</FONT><BR /><FONT POINT-SIZE="8">Sons: k25.21,</FONT>>]
+     fontsize="12" 
+     label = "Line 3 " 
+ }
+subgraph cluster_line_4 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k28_19 [label=<<BR /> ID: k28.19 <BR /><BR /><FONT POINT-SIZE="8">Parents: k19.10,</FONT><BR /><FONT POINT-SIZE="8">Sons: k29.28,</FONT>>]k22_21 [label=<<BR /> ID: k22.21 <BR /><BR /><FONT POINT-SIZE="8">Parents: k21.11,</FONT><BR /><FONT POINT-SIZE="8">Sons: k31.22,</FONT>>]k25_15 [label=<<BR /> ID: k25.15 <BR /><BR /><FONT POINT-SIZE="8">Parents: k15.10,</FONT><BR /><FONT POINT-SIZE="8">Sons: k35.25,</FONT>>]k22_19 [label=<<BR /> ID: k22.19 <BR /><BR /><FONT POINT-SIZE="8">Parents: k19.9,</FONT><BR /><FONT POINT-SIZE="8">Sons: k32.22,</FONT>>]k26_17 [label=<<BR /> ID: k26.17 <BR /><BR /><FONT POINT-SIZE="8">Parents: k17.8,</FONT><BR /><FONT POINT-SIZE="8">Sons: k35.26,</FONT>>]k25_21 [label=<<BR /> ID: k25.21 <BR /><BR /><FONT POINT-SIZE="8">Parents: k21.10,</FONT><BR /><FONT POINT-SIZE="8">Sons: k29.25,</FONT>>]k28_16 [label=<<BR /> ID: k28.16 <BR /><BR /><FONT POINT-SIZE="8">Parents: k16.11,</FONT><BR /><FONT POINT-SIZE="8">Sons: k33.28,</FONT>>]
+     fontsize="12" 
+     label = "Line 4 " 
+ }
+subgraph cluster_line_5 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k31_22 [label=<<BR /> ID: k31.22 <BR /><BR /><FONT POINT-SIZE="8">Parents: k22.21,</FONT><BR /><FONT POINT-SIZE="8">Sons: k40.31,</FONT>>]k33_28 [label=<<BR /> ID: k33.28 <BR /><BR /><FONT POINT-SIZE="8">Parents: k28.16,</FONT><BR /><FONT POINT-SIZE="8">Sons: k38.33,</FONT>>]k29_25 [label=<<BR /> ID: k29.25 <BR /><BR /><FONT POINT-SIZE="8">Parents: k25.21,</FONT><BR /><FONT POINT-SIZE="8">Sons: k40.29,</FONT>>]k29_28 [label=<<BR /> ID: k29.28 <BR /><BR /><FONT POINT-SIZE="8">Parents: k28.19,</FONT><BR /><FONT POINT-SIZE="8">Sons: k39.29,</FONT>>]k35_26 [label=<<BR /> ID: k35.26 <BR /><BR /><FONT POINT-SIZE="8">Parents: k26.17,</FONT><BR /><FONT POINT-SIZE="8">Sons: k37.35,</FONT>>]k35_25 [label=<<BR /> ID: k35.25 <BR /><BR /><FONT POINT-SIZE="8">Parents: k25.15,</FONT><BR /><FONT POINT-SIZE="8">Sons: k40.35,</FONT>>]k32_22 [label=<<BR /> ID: k32.22 <BR /><BR /><FONT POINT-SIZE="8">Parents: k22.19,</FONT><BR /><FONT POINT-SIZE="8">Sons: k42.32,</FONT>>]
+     fontsize="12" 
+     label = "Line 5 " 
+ }
+subgraph cluster_line_6 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k37_35 [label=<<BR /> ID: k37.35 <BR /><BR /><FONT POINT-SIZE="8">Parents: k35.26,</FONT><BR /><FONT POINT-SIZE="8">Sons: k46.37,</FONT>>]k39_29 [label=<<BR /> ID: k39.29 <BR /><BR /><FONT POINT-SIZE="8">Parents: k29.28,</FONT><BR /><FONT POINT-SIZE="8">Sons: k44.39,</FONT>>]k40_35 [label=<<BR /> ID: k40.35 <BR /><BR /><FONT POINT-SIZE="8">Parents: k35.25,</FONT><BR /><FONT POINT-SIZE="8">Sons: k44.40,</FONT>>]k40_29 [label=<<BR /> ID: k40.29 <BR /><BR /><FONT POINT-SIZE="8">Parents: k29.25,</FONT><BR /><FONT POINT-SIZE="8">Sons: k44.40,</FONT>>]k40_31 [label=<<BR /> ID: k40.31 <BR /><BR /><FONT POINT-SIZE="8">Parents: k31.22,</FONT><BR /><FONT POINT-SIZE="8">Sons: k44.40,</FONT>>]k38_33 [label=<<BR /> ID: k38.33 <BR /><BR /><FONT POINT-SIZE="8">Parents: k33.28,</FONT><BR /><FONT POINT-SIZE="8">Sons: k43.38,</FONT>>]k42_32 [label=<<BR /> ID: k42.32 <BR /><BR /><FONT POINT-SIZE="8">Parents: k32.22,</FONT><BR /><FONT POINT-SIZE="8">Sons: k45.42,</FONT>>]
+     fontsize="12" 
+     label = "Line 6 " 
+ }
+subgraph cluster_line_7 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k44_39 [label=<<BR /> ID: k44.39 <BR /><BR /><FONT POINT-SIZE="8">Parents: k39.29,</FONT><BR /><FONT POINT-SIZE="8">Sons: k50.44,</FONT>>]k44_40 [label=<<BR /> ID: k44.40 <BR /><BR /><FONT POINT-SIZE="8">Parents: k40.29,k40.31,k40.35,</FONT><BR /><FONT POINT-SIZE="8">Sons: k50.44,</FONT>>]k45_42 [label=<<BR /> ID: k45.42 <BR /><BR /><FONT POINT-SIZE="8">Parents: k42.32,</FONT><BR /><FONT POINT-SIZE="8">Sons: k50.45,</FONT>>]k43_38 [label=<<BR /> ID: k43.38 <BR /><BR /><FONT POINT-SIZE="8">Parents: k38.33,</FONT><BR /><FONT POINT-SIZE="8">Sons: k50.43,</FONT>>]k46_37 [label=<<BR /> ID: k46.37 <BR /><BR /><FONT POINT-SIZE="8">Parents: k37.35,</FONT><BR /><FONT POINT-SIZE="8">Sons: k50.46,</FONT>>]
+     fontsize="12" 
+     label = "Line 7 " 
+ }
+subgraph cluster_line_8 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k50_43 [label=<<BR /> ID: k50.43 <BR /><BR /><FONT POINT-SIZE="8">Parents: k43.38,</FONT><BR /><FONT POINT-SIZE="8">Sons: </FONT>>]k50_44 [label=<<BR /> ID: k50.44 <BR /><BR /><FONT POINT-SIZE="8">Parents: k44.39,k44.40,</FONT><BR /><FONT POINT-SIZE="8">Sons: </FONT>>]k50_46 [label=<<BR /> ID: k50.46 <BR /><BR /><FONT POINT-SIZE="8">Parents: k46.37,</FONT><BR /><FONT POINT-SIZE="8">Sons: </FONT>>]k50_45 [label=<<BR /> ID: k50.45 <BR /><BR /><FONT POINT-SIZE="8">Parents: k45.42,</FONT><BR /><FONT POINT-SIZE="8">Sons: </FONT>>]
+     fontsize="12" 
+     label = "Line 8 " 
+ }
+k0_ROOT -> k6_0 
+k6_0 -> k9_6 
+k6_0 -> k10_6 
+k6_0 -> k8_6 
+k6_0 -> k11_6 
+k10_6 -> k15_10 
+k10_6 -> k21_10 
+k10_6 -> k19_10 
+k9_6 -> k19_9 
+k8_6 -> k17_8 
+k11_6 -> k21_11 
+k11_6 -> k16_11 
+k19_9 -> k22_19 
+k15_10 -> k25_15 
+k16_11 -> k28_16 
+k17_8 -> k26_17 
+k19_10 -> k28_19 
+k21_11 -> k22_21 
+k21_10 -> k25_21 
+k28_19 -> k29_28 
+k22_21 -> k31_22 
+k25_15 -> k35_25 
+k22_19 -> k32_22 
+k26_17 -> k35_26 
+k25_21 -> k29_25 
+k28_16 -> k33_28 
+k31_22 -> k40_31 
+k33_28 -> k38_33 
+k29_25 -> k40_29 
+k29_28 -> k39_29 
+k35_26 -> k37_35 
+k35_25 -> k40_35 
+k32_22 -> k42_32 
+k37_35 -> k46_37 
+k39_29 -> k44_39 
+k40_35 -> k44_40 
+k40_29 -> k44_40 
+k40_31 -> k44_40 
+k38_33 -> k43_38 
+k42_32 -> k45_42 
+k44_39 -> k50_44 
+k44_40 -> k50_44 
+k45_42 -> k50_45 
+k43_38 -> k50_43 
+k46_37 -> k50_46 
+}

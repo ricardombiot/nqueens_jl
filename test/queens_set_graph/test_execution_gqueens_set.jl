@@ -1,6 +1,36 @@
-function test_execution_gqueensset()
+function test_counting_gqueensset()
+
+    expected_solutions = Dict(4=>2,5=>10,6=>4,7=>40,8=>92,
+                              9=>352,10=>724)
+
+    for n in 4:5
+        queens_set = test_execution_gqueensset(n)
+        read_exp(queens_set)
+        total_solutions = PathExpReader.get_total_solutions_found(reader_exp)
+        @test total_solutions == expected_solutions[n]
+        println("Found solutions $total_solutions on N[$n] - Test: OK")
+    end
+end
+
+function test_reading_step_by_step(n :: Color)
+    queens_set = test_execution_gqueensset(n)
+    reader = PathReader.new(queens_set)
+    diagram = DiagramGraphQueensSet.build(reader.queens_set)
+    DiagramGraphQueensSet.to_png(diagram, "test_reading_n$(n)_step_$(reader.step)","./test_visual/reader")
+
+    while PathReader.next_step!(reader)
+        #plot
+        diagram = DiagramGraphQueensSet.build(reader.queens_set)
+        DiagramGraphQueensSet.to_png(diagram, "test_reading_n$(n)_step_$(reader.step)","./test_visual/reader")
+    end
+    println("Solutions Route:")
+    println(reader.route)
+
+end
+
+function test_execution_gqueensset(n :: Color)
     #Init
-    n = Color(10)
+    #n = Color(4)
     board = Chessboard.new(n)
     Chessboard.build!(board)
 
@@ -26,8 +56,7 @@ function test_execution_gqueensset()
     #reader = read_one(queens_set)
     #println(reader.route)
 
-    read_exp(queens_set)
-
+    return queens_set
 end
 
 function read_one(queens_set)
@@ -50,6 +79,8 @@ function read_exp(queens_set)
     total_solutions = PathExpReader.get_total_solutions_found(reader_exp)
     println("Total: $total_solutions")
     println("----------")
+
+    return reader_exp
 end
 
 function make_step!(step, timeline, db, board)
@@ -84,4 +115,6 @@ function init_timeline(board)
 end
 
 
-test_execution_gqueensset()
+#test_execution_gqueensset()
+#test_counting_gqueensset()
+test_reading_step_by_step(7)

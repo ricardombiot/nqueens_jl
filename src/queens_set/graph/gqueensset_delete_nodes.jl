@@ -25,7 +25,7 @@ end
 function clean_owners_parents_and_sons_links!(queens_set :: GQueensSet, node_id_deleting :: NodeId)
     node_to_delete = get_node(queens_set, node_id_deleting)
 
-    for step in 1:queens_set.step-1
+    for step in 0:queens_set.step-1
         for node_id in queens_set.table_lines[step]
             node_selected = get_node(queens_set, node_id)
 

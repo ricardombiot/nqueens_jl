@@ -3,9 +3,9 @@ function reduce_graph!(path :: PathSolutionReader)
     all_nodes_wasnt_selected_save_to_delete!(path)
     GraphQueensSet.clear_and_review!(path.queens_set)
 
-    #if !path.queens_set.is_valid
-    #    throw("Grave error...")
-    #end
+    if !path.queens_set.is_valid
+        throw("Grave error...")
+    end
 end
 
 
