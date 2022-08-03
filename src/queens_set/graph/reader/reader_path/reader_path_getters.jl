@@ -9,3 +9,12 @@ function to_string_path(path :: PathSolutionReader) :: String
     end
     return chop(txt, tail = 2)
 end
+
+
+function get_configuration(path :: PathSolutionReader) :: Array{Color,1}
+    route = deepcopy(path.route)
+    pop!(route)
+    popfirst!(route)
+
+    return route
+end

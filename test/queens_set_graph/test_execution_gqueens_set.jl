@@ -3,12 +3,50 @@ function test_counting_gqueensset()
     expected_solutions = Dict(4=>2,5=>10,6=>4,7=>40,8=>92,
                               9=>352,10=>724)
 
-    for n in 4:5
+    for n in 4:10
         queens_set = test_execution_gqueensset(n)
-        read_exp(queens_set)
+        reader_exp = read_exp(queens_set)
         total_solutions = PathExpReader.get_total_solutions_found(reader_exp)
         @test total_solutions == expected_solutions[n]
         println("Found solutions $total_solutions on N[$n] - Test: OK")
+
+        check_all(reader_exp, n)
+        println("All $total_solutions are valid. Test: OK")
+    end
+end
+
+function check_all(reader_exp, n)
+    board = Chessboard.new(n)
+    Chessboard.build!(board)
+
+    for reader in reader_exp.paths_solution
+        check(reader, board)
+    end
+end
+
+function test_read_one_gqueensset()
+    for n in 4:10
+        queens_set = test_execution_gqueensset(n)
+        @test queens_set.is_valid
+        reader = PathReader.new(queens_set)
+        PathReader.calc!(reader)
+        println("Reads one solution for N[$n]:")
+        println(reader.route)
+
+        board = Chessboard.new(n)
+        Chessboard.build!(board)
+        check(reader, board)
+    end
+end
+
+function check(reader, board)
+    route = PathReader.get_configuration(reader)
+    for position_color in route
+        compatibles = Chessboard.get_color_compatibles(board, position_color)
+        for position_checking in route
+            is_compatible = position_checking in compatibles
+            @test is_compatible
+        end
     end
 end
 
@@ -49,8 +87,8 @@ function test_execution_gqueensset(n :: Color)
 
     queens_set = action.queens_set
 
-    diagram = DiagramGraphQueensSet.build(queens_set)
-    DiagramGraphQueensSet.to_png(diagram, "test_solution_n$n")
+    #diagram = DiagramGraphQueensSet.build(queens_set)
+    #DiagramGraphQueensSet.to_png(diagram, "test_solution_n$n")
 
     @test action.queens_set.is_valid
     #reader = read_one(queens_set)
@@ -73,7 +111,6 @@ function read_exp(queens_set)
     reader_exp = PathExpReader.new(queens_set, limit)
     PathExpReader.calc!(reader_exp)
     txt = PathExpReader.to_string_solutions(reader_exp)
-
     println(txt)
     println("----------")
     total_solutions = PathExpReader.get_total_solutions_found(reader_exp)
@@ -117,4 +154,5 @@ end
 
 #test_execution_gqueensset()
 #test_counting_gqueensset()
-test_reading_step_by_step(7)
+#test_reading_step_by_step(7)
+test_read_one_gqueensset()
