@@ -78,12 +78,7 @@ end
 function rule_valid_node_chain_owners(queens_set :: GQueensSet, owners :: SetNodesId) :: Bool
     for step in 0:queens_set.step-1
         nodes_on_step_set = queens_set.table_lines[step]
-
         owners_on_step = intersect(owners, nodes_on_step_set)
-        #println("Step: [$step]")
-        #println(Alias.to_txt(nodes_on_step_set))
-        #println(Alias.to_txt(owners))
-        #println(Alias.to_txt(owners_on_step))
 
         if isempty(owners_on_step)
             return false

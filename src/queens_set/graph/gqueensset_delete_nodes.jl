@@ -39,23 +39,8 @@ function clean_owners_parents_and_sons_links!(queens_set :: GQueensSet, node_id_
                 Nodes.delete_owner!(node_selected, node_id_deleting)
             end
         end
-    end
-
-    #=
-    for owner_id in node_to_delete.owners
-        node_selected = get_node(queens_set, owner_id)
-        if node_selected != nothing
-            Nodes.delete_owner!(node_selected, node_id_deleting)
-
-            if node_selected.id in node_to_delete.parents
-                Nodes.delete_son!(node_selected, node_id_deleting)
-            elseif node_selected.id in node_to_delete.sons
-                Nodes.delete_parent!(node_selected, node_id_deleting)
-            end
-        end
         # This actions can create incoherents, therefore we will be checked during reviewing process.
     end
-    =#
 end
 
 function have_pending_to_remove(queens_set :: GQueensSet) :: Bool

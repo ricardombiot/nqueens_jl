@@ -4,7 +4,7 @@ include("./../src/main.jl")
 
 @time @testset "nQueens" begin
 
-    #=
+
     @time @testset "General" begin
         include("test_chessboard_map.jl")
         include("test_timeline.jl")
@@ -12,7 +12,7 @@ include("./../src/main.jl")
 
         include("test_execution.jl")
     end
-    =#
+    #==#
 
 
 
@@ -20,6 +20,6 @@ include("./../src/main.jl")
     @time @testset "GQueensGraph" begin
         #include("./queens_set_graph/test_visual_wrong_configuration.jl")
         #include("./queens_set_graph/test_visual_certificate_configuration.jl")
-        include("./queens_set_graph/test_execution_gqueens_set.jl")
+        #include("./queens_set_graph/test_execution_gqueens_set.jl")
     end
 end
