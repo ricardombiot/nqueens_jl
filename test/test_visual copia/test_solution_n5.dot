@@ -1,0 +1,114 @@
+digraph G {
+     compound=true 
+subgraph cluster_line_0 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k0_ROOT [label=<<BR /> ID: k0.ROOT <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k3.0,k2.0,k1.0,k4.0,k5.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k10.3,k9.2,k6.3,k7.5,k8.5,k9.1,k6.4,k8.1,k10.2,k7.4,</FONT><BR /><FONT POINT-SIZE="10">  3 :k12.9,k15.8,k12.10,k15.7,k14.7,k11.8,k13.10,k11.9,k14.6,k13.6,</FONT><BR /><FONT POINT-SIZE="10">  4 :k16.14,k18.15,k16.13,k20.13,k17.15,k17.14,k18.11,k19.11,k20.12,k19.12,</FONT><BR /><FONT POINT-SIZE="10">  5 :k22.20,k22.19,k23.20,k25.18,k25.17,k24.17,k24.16,k21.19,k21.18,k23.16,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.24,k26.23,k26.21,k26.22,k26.25,</FONT>>]
+     fontsize="12" 
+     label = "Line 0 " 
+ }
+subgraph cluster_line_1 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k3_0 [label=<<BR /> ID: k3.0 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k3.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k10.3,k6.3,</FONT><BR /><FONT POINT-SIZE="10">  3 :k12.10,k14.6,</FONT><BR /><FONT POINT-SIZE="10">  4 :k17.14,k19.12,</FONT><BR /><FONT POINT-SIZE="10">  5 :k25.17,k21.19,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.21,k26.25,</FONT>>]k2_0 [label=<<BR /> ID: k2.0 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k9.2,k10.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k13.10,k11.9,</FONT><BR /><FONT POINT-SIZE="10">  4 :k16.13,k18.11,</FONT><BR /><FONT POINT-SIZE="10">  5 :k25.18,k24.16,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.24,k26.25,</FONT>>]k1_0 [label=<<BR /> ID: k1.0 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k1.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k9.1,k8.1,</FONT><BR /><FONT POINT-SIZE="10">  3 :k12.9,k15.8,</FONT><BR /><FONT POINT-SIZE="10">  4 :k17.15,k20.12,</FONT><BR /><FONT POINT-SIZE="10">  5 :k23.20,k24.17,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.24,k26.23,</FONT>>]k4_0 [label=<<BR /> ID: k4.0 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k4.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k6.4,k7.4,</FONT><BR /><FONT POINT-SIZE="10">  3 :k15.7,k13.6,</FONT><BR /><FONT POINT-SIZE="10">  4 :k18.15,k20.13,</FONT><BR /><FONT POINT-SIZE="10">  5 :k22.20,k21.18,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.21,k26.22,</FONT>>]k5_0 [label=<<BR /> ID: k5.0 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k5.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k7.5,k8.5,</FONT><BR /><FONT POINT-SIZE="10">  3 :k14.7,k11.8,</FONT><BR /><FONT POINT-SIZE="10">  4 :k16.14,k19.11,</FONT><BR /><FONT POINT-SIZE="10">  5 :k22.19,k23.16,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.23,k26.22,</FONT>>]
+     fontsize="12" 
+     label = "Line 1 " 
+ }
+subgraph cluster_line_2 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k10_3 [label=<<BR /> ID: k10.3 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k3.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k10.3,</FONT><BR /><FONT POINT-SIZE="10">  3 :k12.10,</FONT><BR /><FONT POINT-SIZE="10">  4 :k19.12,</FONT><BR /><FONT POINT-SIZE="10">  5 :k21.19,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.21,</FONT>>]k9_2 [label=<<BR /> ID: k9.2 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k9.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k11.9,</FONT><BR /><FONT POINT-SIZE="10">  4 :k18.11,</FONT><BR /><FONT POINT-SIZE="10">  5 :k25.18,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.25,</FONT>>]k6_3 [label=<<BR /> ID: k6.3 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k3.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k6.3,</FONT><BR /><FONT POINT-SIZE="10">  3 :k14.6,</FONT><BR /><FONT POINT-SIZE="10">  4 :k17.14,</FONT><BR /><FONT POINT-SIZE="10">  5 :k25.17,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.25,</FONT>>]k7_5 [label=<<BR /> ID: k7.5 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k5.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k7.5,</FONT><BR /><FONT POINT-SIZE="10">  3 :k14.7,</FONT><BR /><FONT POINT-SIZE="10">  4 :k16.14,</FONT><BR /><FONT POINT-SIZE="10">  5 :k23.16,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.23,</FONT>>]k8_5 [label=<<BR /> ID: k8.5 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k5.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.5,</FONT><BR /><FONT POINT-SIZE="10">  3 :k11.8,</FONT><BR /><FONT POINT-SIZE="10">  4 :k19.11,</FONT><BR /><FONT POINT-SIZE="10">  5 :k22.19,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.22,</FONT>>]k9_1 [label=<<BR /> ID: k9.1 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k1.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k9.1,</FONT><BR /><FONT POINT-SIZE="10">  3 :k12.9,</FONT><BR /><FONT POINT-SIZE="10">  4 :k20.12,</FONT><BR /><FONT POINT-SIZE="10">  5 :k23.20,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.23,</FONT>>]k6_4 [label=<<BR /> ID: k6.4 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k4.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k6.4,</FONT><BR /><FONT POINT-SIZE="10">  3 :k13.6,</FONT><BR /><FONT POINT-SIZE="10">  4 :k20.13,</FONT><BR /><FONT POINT-SIZE="10">  5 :k22.20,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.22,</FONT>>]k8_1 [label=<<BR /> ID: k8.1 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k1.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.1,</FONT><BR /><FONT POINT-SIZE="10">  3 :k15.8,</FONT><BR /><FONT POINT-SIZE="10">  4 :k17.15,</FONT><BR /><FONT POINT-SIZE="10">  5 :k24.17,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.24,</FONT>>]k10_2 [label=<<BR /> ID: k10.2 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k10.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k13.10,</FONT><BR /><FONT POINT-SIZE="10">  4 :k16.13,</FONT><BR /><FONT POINT-SIZE="10">  5 :k24.16,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.24,</FONT>>]k7_4 [label=<<BR /> ID: k7.4 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k4.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k7.4,</FONT><BR /><FONT POINT-SIZE="10">  3 :k15.7,</FONT><BR /><FONT POINT-SIZE="10">  4 :k18.15,</FONT><BR /><FONT POINT-SIZE="10">  5 :k21.18,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.21,</FONT>>]
+     fontsize="12" 
+     label = "Line 2 " 
+ }
+subgraph cluster_line_3 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k12_9 [label=<<BR /> ID: k12.9 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k1.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k9.1,</FONT><BR /><FONT POINT-SIZE="10">  3 :k12.9,</FONT><BR /><FONT POINT-SIZE="10">  4 :k20.12,</FONT><BR /><FONT POINT-SIZE="10">  5 :k23.20,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.23,</FONT>>]k15_8 [label=<<BR /> ID: k15.8 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k1.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.1,</FONT><BR /><FONT POINT-SIZE="10">  3 :k15.8,</FONT><BR /><FONT POINT-SIZE="10">  4 :k17.15,</FONT><BR /><FONT POINT-SIZE="10">  5 :k24.17,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.24,</FONT>>]k12_10 [label=<<BR /> ID: k12.10 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k3.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k10.3,</FONT><BR /><FONT POINT-SIZE="10">  3 :k12.10,</FONT><BR /><FONT POINT-SIZE="10">  4 :k19.12,</FONT><BR /><FONT POINT-SIZE="10">  5 :k21.19,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.21,</FONT>>]k15_7 [label=<<BR /> ID: k15.7 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k4.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k7.4,</FONT><BR /><FONT POINT-SIZE="10">  3 :k15.7,</FONT><BR /><FONT POINT-SIZE="10">  4 :k18.15,</FONT><BR /><FONT POINT-SIZE="10">  5 :k21.18,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.21,</FONT>>]k14_7 [label=<<BR /> ID: k14.7 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k5.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k7.5,</FONT><BR /><FONT POINT-SIZE="10">  3 :k14.7,</FONT><BR /><FONT POINT-SIZE="10">  4 :k16.14,</FONT><BR /><FONT POINT-SIZE="10">  5 :k23.16,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.23,</FONT>>]k11_8 [label=<<BR /> ID: k11.8 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k5.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.5,</FONT><BR /><FONT POINT-SIZE="10">  3 :k11.8,</FONT><BR /><FONT POINT-SIZE="10">  4 :k19.11,</FONT><BR /><FONT POINT-SIZE="10">  5 :k22.19,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.22,</FONT>>]k13_10 [label=<<BR /> ID: k13.10 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k10.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k13.10,</FONT><BR /><FONT POINT-SIZE="10">  4 :k16.13,</FONT><BR /><FONT POINT-SIZE="10">  5 :k24.16,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.24,</FONT>>]k11_9 [label=<<BR /> ID: k11.9 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k9.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k11.9,</FONT><BR /><FONT POINT-SIZE="10">  4 :k18.11,</FONT><BR /><FONT POINT-SIZE="10">  5 :k25.18,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.25,</FONT>>]k14_6 [label=<<BR /> ID: k14.6 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k3.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k6.3,</FONT><BR /><FONT POINT-SIZE="10">  3 :k14.6,</FONT><BR /><FONT POINT-SIZE="10">  4 :k17.14,</FONT><BR /><FONT POINT-SIZE="10">  5 :k25.17,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.25,</FONT>>]k13_6 [label=<<BR /> ID: k13.6 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k4.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k6.4,</FONT><BR /><FONT POINT-SIZE="10">  3 :k13.6,</FONT><BR /><FONT POINT-SIZE="10">  4 :k20.13,</FONT><BR /><FONT POINT-SIZE="10">  5 :k22.20,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.22,</FONT>>]
+     fontsize="12" 
+     label = "Line 3 " 
+ }
+subgraph cluster_line_4 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k16_14 [label=<<BR /> ID: k16.14 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k5.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k7.5,</FONT><BR /><FONT POINT-SIZE="10">  3 :k14.7,</FONT><BR /><FONT POINT-SIZE="10">  4 :k16.14,</FONT><BR /><FONT POINT-SIZE="10">  5 :k23.16,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.23,</FONT>>]k18_15 [label=<<BR /> ID: k18.15 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k4.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k7.4,</FONT><BR /><FONT POINT-SIZE="10">  3 :k15.7,</FONT><BR /><FONT POINT-SIZE="10">  4 :k18.15,</FONT><BR /><FONT POINT-SIZE="10">  5 :k21.18,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.21,</FONT>>]k16_13 [label=<<BR /> ID: k16.13 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k10.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k13.10,</FONT><BR /><FONT POINT-SIZE="10">  4 :k16.13,</FONT><BR /><FONT POINT-SIZE="10">  5 :k24.16,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.24,</FONT>>]k20_13 [label=<<BR /> ID: k20.13 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k4.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k6.4,</FONT><BR /><FONT POINT-SIZE="10">  3 :k13.6,</FONT><BR /><FONT POINT-SIZE="10">  4 :k20.13,</FONT><BR /><FONT POINT-SIZE="10">  5 :k22.20,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.22,</FONT>>]k17_15 [label=<<BR /> ID: k17.15 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k1.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.1,</FONT><BR /><FONT POINT-SIZE="10">  3 :k15.8,</FONT><BR /><FONT POINT-SIZE="10">  4 :k17.15,</FONT><BR /><FONT POINT-SIZE="10">  5 :k24.17,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.24,</FONT>>]k17_14 [label=<<BR /> ID: k17.14 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k3.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k6.3,</FONT><BR /><FONT POINT-SIZE="10">  3 :k14.6,</FONT><BR /><FONT POINT-SIZE="10">  4 :k17.14,</FONT><BR /><FONT POINT-SIZE="10">  5 :k25.17,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.25,</FONT>>]k18_11 [label=<<BR /> ID: k18.11 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k9.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k11.9,</FONT><BR /><FONT POINT-SIZE="10">  4 :k18.11,</FONT><BR /><FONT POINT-SIZE="10">  5 :k25.18,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.25,</FONT>>]k19_11 [label=<<BR /> ID: k19.11 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k5.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.5,</FONT><BR /><FONT POINT-SIZE="10">  3 :k11.8,</FONT><BR /><FONT POINT-SIZE="10">  4 :k19.11,</FONT><BR /><FONT POINT-SIZE="10">  5 :k22.19,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.22,</FONT>>]k20_12 [label=<<BR /> ID: k20.12 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k1.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k9.1,</FONT><BR /><FONT POINT-SIZE="10">  3 :k12.9,</FONT><BR /><FONT POINT-SIZE="10">  4 :k20.12,</FONT><BR /><FONT POINT-SIZE="10">  5 :k23.20,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.23,</FONT>>]k19_12 [label=<<BR /> ID: k19.12 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k3.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k10.3,</FONT><BR /><FONT POINT-SIZE="10">  3 :k12.10,</FONT><BR /><FONT POINT-SIZE="10">  4 :k19.12,</FONT><BR /><FONT POINT-SIZE="10">  5 :k21.19,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.21,</FONT>>]
+     fontsize="12" 
+     label = "Line 4 " 
+ }
+subgraph cluster_line_5 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k22_20 [label=<<BR /> ID: k22.20 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k4.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k6.4,</FONT><BR /><FONT POINT-SIZE="10">  3 :k13.6,</FONT><BR /><FONT POINT-SIZE="10">  4 :k20.13,</FONT><BR /><FONT POINT-SIZE="10">  5 :k22.20,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.22,</FONT>>]k22_19 [label=<<BR /> ID: k22.19 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k5.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.5,</FONT><BR /><FONT POINT-SIZE="10">  3 :k11.8,</FONT><BR /><FONT POINT-SIZE="10">  4 :k19.11,</FONT><BR /><FONT POINT-SIZE="10">  5 :k22.19,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.22,</FONT>>]k23_20 [label=<<BR /> ID: k23.20 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k1.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k9.1,</FONT><BR /><FONT POINT-SIZE="10">  3 :k12.9,</FONT><BR /><FONT POINT-SIZE="10">  4 :k20.12,</FONT><BR /><FONT POINT-SIZE="10">  5 :k23.20,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.23,</FONT>>]k25_18 [label=<<BR /> ID: k25.18 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k9.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k11.9,</FONT><BR /><FONT POINT-SIZE="10">  4 :k18.11,</FONT><BR /><FONT POINT-SIZE="10">  5 :k25.18,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.25,</FONT>>]k25_17 [label=<<BR /> ID: k25.17 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k3.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k6.3,</FONT><BR /><FONT POINT-SIZE="10">  3 :k14.6,</FONT><BR /><FONT POINT-SIZE="10">  4 :k17.14,</FONT><BR /><FONT POINT-SIZE="10">  5 :k25.17,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.25,</FONT>>]k24_17 [label=<<BR /> ID: k24.17 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k1.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.1,</FONT><BR /><FONT POINT-SIZE="10">  3 :k15.8,</FONT><BR /><FONT POINT-SIZE="10">  4 :k17.15,</FONT><BR /><FONT POINT-SIZE="10">  5 :k24.17,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.24,</FONT>>]k24_16 [label=<<BR /> ID: k24.16 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k10.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k13.10,</FONT><BR /><FONT POINT-SIZE="10">  4 :k16.13,</FONT><BR /><FONT POINT-SIZE="10">  5 :k24.16,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.24,</FONT>>]k21_19 [label=<<BR /> ID: k21.19 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k3.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k10.3,</FONT><BR /><FONT POINT-SIZE="10">  3 :k12.10,</FONT><BR /><FONT POINT-SIZE="10">  4 :k19.12,</FONT><BR /><FONT POINT-SIZE="10">  5 :k21.19,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.21,</FONT>>]k21_18 [label=<<BR /> ID: k21.18 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k4.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k7.4,</FONT><BR /><FONT POINT-SIZE="10">  3 :k15.7,</FONT><BR /><FONT POINT-SIZE="10">  4 :k18.15,</FONT><BR /><FONT POINT-SIZE="10">  5 :k21.18,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.21,</FONT>>]k23_16 [label=<<BR /> ID: k23.16 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k5.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k7.5,</FONT><BR /><FONT POINT-SIZE="10">  3 :k14.7,</FONT><BR /><FONT POINT-SIZE="10">  4 :k16.14,</FONT><BR /><FONT POINT-SIZE="10">  5 :k23.16,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.23,</FONT>>]
+     fontsize="12" 
+     label = "Line 5 " 
+ }
+subgraph cluster_line_6 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k26_24 [label=<<BR /> ID: k26.24 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,k1.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.1,k10.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k15.8,k13.10,</FONT><BR /><FONT POINT-SIZE="10">  4 :k16.13,k17.15,</FONT><BR /><FONT POINT-SIZE="10">  5 :k24.17,k24.16,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.24,</FONT>>]k26_23 [label=<<BR /> ID: k26.23 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k1.0,k5.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k7.5,k9.1,</FONT><BR /><FONT POINT-SIZE="10">  3 :k12.9,k14.7,</FONT><BR /><FONT POINT-SIZE="10">  4 :k16.14,k20.12,</FONT><BR /><FONT POINT-SIZE="10">  5 :k23.20,k23.16,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.23,</FONT>>]k26_21 [label=<<BR /> ID: k26.21 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k3.0,k4.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k10.3,k7.4,</FONT><BR /><FONT POINT-SIZE="10">  3 :k12.10,k15.7,</FONT><BR /><FONT POINT-SIZE="10">  4 :k18.15,k19.12,</FONT><BR /><FONT POINT-SIZE="10">  5 :k21.19,k21.18,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.21,</FONT>>]k26_22 [label=<<BR /> ID: k26.22 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k4.0,k5.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.5,k6.4,</FONT><BR /><FONT POINT-SIZE="10">  3 :k11.8,k13.6,</FONT><BR /><FONT POINT-SIZE="10">  4 :k20.13,k19.11,</FONT><BR /><FONT POINT-SIZE="10">  5 :k22.20,k22.19,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.22,</FONT>>]k26_25 [label=<<BR /> ID: k26.25 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k3.0,k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k9.2,k6.3,</FONT><BR /><FONT POINT-SIZE="10">  3 :k11.9,k14.6,</FONT><BR /><FONT POINT-SIZE="10">  4 :k17.14,k18.11,</FONT><BR /><FONT POINT-SIZE="10">  5 :k25.18,k25.17,</FONT><BR /><FONT POINT-SIZE="10">  6 :k26.25,</FONT>>]
+     fontsize="12" 
+     label = "Line 6 " 
+ }
+k0_ROOT -> k3_0 
+k0_ROOT -> k2_0 
+k0_ROOT -> k1_0 
+k0_ROOT -> k4_0 
+k0_ROOT -> k5_0 
+k3_0 -> k10_3 
+k3_0 -> k6_3 
+k2_0 -> k9_2 
+k2_0 -> k10_2 
+k1_0 -> k8_1 
+k1_0 -> k9_1 
+k4_0 -> k6_4 
+k4_0 -> k7_4 
+k5_0 -> k8_5 
+k5_0 -> k7_5 
+k10_3 -> k12_10 
+k9_2 -> k11_9 
+k6_3 -> k14_6 
+k7_5 -> k14_7 
+k8_5 -> k11_8 
+k9_1 -> k12_9 
+k6_4 -> k13_6 
+k8_1 -> k15_8 
+k10_2 -> k13_10 
+k7_4 -> k15_7 
+k12_9 -> k20_12 
+k15_8 -> k17_15 
+k12_10 -> k19_12 
+k15_7 -> k18_15 
+k14_7 -> k16_14 
+k11_8 -> k19_11 
+k13_10 -> k16_13 
+k11_9 -> k18_11 
+k14_6 -> k17_14 
+k13_6 -> k20_13 
+k16_14 -> k23_16 
+k18_15 -> k21_18 
+k16_13 -> k24_16 
+k20_13 -> k22_20 
+k17_15 -> k24_17 
+k17_14 -> k25_17 
+k18_11 -> k25_18 
+k19_11 -> k22_19 
+k20_12 -> k23_20 
+k19_12 -> k21_19 
+k22_20 -> k26_22 
+k22_19 -> k26_22 
+k23_20 -> k26_23 
+k25_18 -> k26_25 
+k25_17 -> k26_25 
+k24_17 -> k26_24 
+k24_16 -> k26_24 
+k21_19 -> k26_21 
+k21_18 -> k26_21 
+k23_16 -> k26_23 
+}

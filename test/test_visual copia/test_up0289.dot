@@ -1,0 +1,38 @@
+digraph G {
+     compound=true 
+subgraph cluster_line_0 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k0_ROOT [label=<<BR /> ID: k0.ROOT <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k9.8,</FONT>>]
+     fontsize="12" 
+     label = "Line 0 " 
+ }
+subgraph cluster_line_1 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k2_0 [label=<<BR /> ID: k2.0 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k9.8,</FONT>>]
+     fontsize="12" 
+     label = "Line 1 " 
+ }
+subgraph cluster_line_2 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k8_2 [label=<<BR /> ID: k8.2 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k9.8,</FONT>>]
+     fontsize="12" 
+     label = "Line 2 " 
+ }
+subgraph cluster_line_3 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k9_8 [label=<<BR /> ID: k9.8 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k2.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k8.2,</FONT><BR /><FONT POINT-SIZE="10">  3 :k9.8,</FONT>>]
+     fontsize="12" 
+     label = "Line 3 " 
+ }
+k0_ROOT -> k2_0 
+k2_0 -> k8_2 
+k8_2 -> k9_8 
+}

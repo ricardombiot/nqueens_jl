@@ -1,0 +1,29 @@
+digraph G {
+     compound=true 
+subgraph cluster_line_0 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k0_ROOT [label=<<BR /> ID: k0.ROOT <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k1.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k7.1,</FONT>>]
+     fontsize="12" 
+     label = "Line 0 " 
+ }
+subgraph cluster_line_1 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k1_0 [label=<<BR /> ID: k1.0 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k1.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k7.1,</FONT>>]
+     fontsize="12" 
+     label = "Line 1 " 
+ }
+subgraph cluster_line_2 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k7_1 [label=<<BR /> ID: k7.1 <BR /><BR /><FONT POINT-SIZE="10">  0 :k0.ROOT,</FONT><BR /><FONT POINT-SIZE="10">  1 :k1.0,</FONT><BR /><FONT POINT-SIZE="10">  2 :k7.1,</FONT>>]
+     fontsize="12" 
+     label = "Line 2 " 
+ }
+k0_ROOT -> k1_0 
+k1_0 -> k7_1 
+}

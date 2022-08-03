@@ -11,6 +11,10 @@ module NQueens
     include("./queens_set/mock/mock_queens_secuence.jl")
     include("./queens_set/mock/mock_queens_set.jl")
 
+    include("./queens_set/graph/components/gqueensset_components.jl")
+    include("./queens_set/graph/graph_queens_set.jl")
+    include("./queens_set/graph/visual/diagram_gqueensset_visual.jl")
+
     include("./queens_set/iqueens_set.jl")
 
     include("./db_actions/actions.jl")

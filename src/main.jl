@@ -28,3 +28,12 @@ using Main.NQueens.MockQueensSecuences
 
 using Main.NQueens.MockQueensSet: MQueensSet
 using Main.NQueens.MockQueensSet
+
+using Main.NQueens.GQueensSetComponents.Nodes: Node
+using Main.NQueens.GQueensSetComponents.Nodes
+using Main.NQueens.GraphQueensSet: GQueensSet
+using Main.NQueens.GraphQueensSet
+using Main.NQueens.GraphQueensSet: GQueensSet
+using Main.NQueens.GraphQueensSet
+using Main.NQueens.DiagramGraphQueensSet: GQueensSetDiagram
+using Main.NQueens.DiagramGraphQueensSet
