@@ -23,6 +23,33 @@ function test_execution_gqueensset()
     DiagramGraphQueensSet.to_png(diagram, "test_solution_n$n")
 
     @test action.queens_set.is_valid
+    #reader = read_one(queens_set)
+    #println(reader.route)
+
+    read_exp(queens_set)
+
+end
+
+function read_one(queens_set)
+    reader = PathReader.new(queens_set)
+    PathReader.calc!(reader)
+
+    return reader
+end
+
+function read_exp(queens_set)
+    println("--- Reading ---")
+    n = queens_set.n
+    limit = UInt128(n^n)
+    reader_exp = PathExpReader.new(queens_set, limit)
+    PathExpReader.calc!(reader_exp)
+    txt = PathExpReader.to_string_solutions(reader_exp)
+
+    println(txt)
+    println("----------")
+    total_solutions = PathExpReader.get_total_solutions_found(reader_exp)
+    println("Total: $total_solutions")
+    println("----------")
 end
 
 function make_step!(step, timeline, db, board)

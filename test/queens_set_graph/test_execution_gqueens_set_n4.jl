@@ -21,6 +21,25 @@ function test_execution_gqueensset()
 
     diagram = DiagramGraphQueensSet.build(queens_set)
     DiagramGraphQueensSet.to_png(diagram, "test_solution_n4")
+
+    #read_one(queens_set)
+    read_exp(queens_set)
+
+end
+
+function read_one(queens_set)
+    reader = PathReader.new(queens_set)
+    PathReader.calc!(reader)
+    println(reader.route)
+end
+
+function read_exp(queens_set)
+    n = queens_set.n
+    limit = UInt128(n^n)
+    reader_exp = PathExpReader.new(queens_set, limit)
+    PathExpReader.calc!(reader_exp)
+    txt = PathExpReader.to_string_solutions(reader_exp)
+    println(txt)
 end
 
 function make_step!(step, timeline, db, board)

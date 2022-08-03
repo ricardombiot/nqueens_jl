@@ -37,3 +37,10 @@ using Main.NQueens.GraphQueensSet: GQueensSet
 using Main.NQueens.GraphQueensSet
 using Main.NQueens.DiagramGraphQueensSet: GQueensSetDiagram
 using Main.NQueens.DiagramGraphQueensSet
+
+
+using Main.NQueens.PathReader: PathSolutionReader
+using Main.NQueens.PathReader
+
+using Main.NQueens.PathExpReader: PathSolutionExpReader
+using Main.NQueens.PathExpReader

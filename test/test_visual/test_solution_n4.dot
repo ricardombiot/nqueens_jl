@@ -1,0 +1,63 @@
+digraph G {
+     compound=true 
+subgraph cluster_line_0 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k0_ROOT [label=<<BR /> ID: k0.ROOT <BR />>]
+     fontsize="12" 
+     label = "Line 0 " 
+ }
+subgraph cluster_line_1 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k3_0 [label=<<BR /> ID: k3.0 <BR />>]k2_0 [label=<<BR /> ID: k2.0 <BR />>]
+     fontsize="12" 
+     label = "Line 1 " 
+ }
+subgraph cluster_line_2 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k8_2 [label=<<BR /> ID: k8.2 <BR />>]k5_3 [label=<<BR /> ID: k5.3 <BR />>]
+     fontsize="12" 
+     label = "Line 2 " 
+ }
+subgraph cluster_line_3 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k12_5 [label=<<BR /> ID: k12.5 <BR />>]k9_8 [label=<<BR /> ID: k9.8 <BR />>]
+     fontsize="12" 
+     label = "Line 3 " 
+ }
+subgraph cluster_line_4 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k14_12 [label=<<BR /> ID: k14.12 <BR />>]k15_9 [label=<<BR /> ID: k15.9 <BR />>]
+     fontsize="12" 
+     label = "Line 4 " 
+ }
+subgraph cluster_line_5 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k17_15 [label=<<BR /> ID: k17.15 <BR />>]k17_14 [label=<<BR /> ID: k17.14 <BR />>]
+     fontsize="12" 
+     label = "Line 5 " 
+ }
+k0_ROOT -> k3_0 
+k0_ROOT -> k2_0 
+k0_ROOT -> k1_0 
+k0_ROOT -> k4_0 
+k3_0 -> k5_3 
+k2_0 -> k8_2 
+k8_2 -> k9_8 
+k5_3 -> k12_5 
+k12_5 -> k14_12 
+k9_8 -> k15_9 
+k14_12 -> k17_14 
+k15_9 -> k17_15 
+}

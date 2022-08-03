@@ -15,6 +15,9 @@ module NQueens
     include("./queens_set/graph/graph_queens_set.jl")
     include("./queens_set/graph/visual/diagram_gqueensset_visual.jl")
 
+    include("./queens_set/graph/reader/reader_path/reader_path.jl")
+    include("./queens_set/graph/reader/reader_path_exp/reader_path_exp.jl")
+
     include("./queens_set/iqueens_set.jl")
 
     include("./db_actions/actions.jl")

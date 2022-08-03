@@ -9,12 +9,3 @@ function new(n :: Color) :: GQueensSet
     is_valid = true
     GQueensSet(n, step ,table_lines, table_nodes, last_parent_action_id, pending_to_remove, is_valid)
 end
-
-
-function is_valid(queens_set :: GQueensSet) :: Bool
-    return queens_set.is_valid
-end
-
-function is_empty(queens_set :: GQueensSet) :: Bool
-    return !queens_set.is_valid
-end

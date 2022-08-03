@@ -23,5 +23,6 @@ module GraphQueensSet
    include("./gqueensset_make_up.jl")
    include("./gqueensset_join.jl")
    include("./gqueensset_delete_nodes.jl")
+   include("./gqueensset_utils.jl")
 
 end

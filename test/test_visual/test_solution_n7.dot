@@ -1,0 +1,318 @@
+digraph G {
+     compound=true 
+subgraph cluster_line_0 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k0_ROOT [label=<<BR /> ID: k0.ROOT <BR />>]
+     fontsize="12" 
+     label = "Line 0 " 
+ }
+subgraph cluster_line_1 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k6_0 [label=<<BR /> ID: k6.0 <BR />>]k3_0 [label=<<BR /> ID: k3.0 <BR />>]k2_0 [label=<<BR /> ID: k2.0 <BR />>]k1_0 [label=<<BR /> ID: k1.0 <BR />>]k4_0 [label=<<BR /> ID: k4.0 <BR />>]k5_0 [label=<<BR /> ID: k5.0 <BR />>]k7_0 [label=<<BR /> ID: k7.0 <BR />>]
+     fontsize="12" 
+     label = "Line 1 " 
+ }
+subgraph cluster_line_2 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k14_5 [label=<<BR /> ID: k14.5 <BR />>]k14_4 [label=<<BR /> ID: k14.4 <BR />>]k10_7 [label=<<BR /> ID: k10.7 <BR />>]k8_4 [label=<<BR /> ID: k8.4 <BR />>]k12_2 [label=<<BR /> ID: k12.2 <BR />>]k11_7 [label=<<BR /> ID: k11.7 <BR />>]k13_1 [label=<<BR /> ID: k13.1 <BR />>]k9_5 [label=<<BR /> ID: k9.5 <BR />>]k10_6 [label=<<BR /> ID: k10.6 <BR />>]k9_6 [label=<<BR /> ID: k9.6 <BR />>]k14_2 [label=<<BR /> ID: k14.2 <BR />>]k12_1 [label=<<BR /> ID: k12.1 <BR />>]k8_3 [label=<<BR /> ID: k8.3 <BR />>]k14_3 [label=<<BR /> ID: k14.3 <BR />>]k13_3 [label=<<BR /> ID: k13.3 <BR />>]k13_4 [label=<<BR /> ID: k13.4 <BR />>]k10_5 [label=<<BR /> ID: k10.5 <BR />>]k9_7 [label=<<BR /> ID: k9.7 <BR />>]k11_1 [label=<<BR /> ID: k11.1 <BR />>]k12_3 [label=<<BR /> ID: k12.3 <BR />>]k8_6 [label=<<BR /> ID: k8.6 <BR />>]k9_4 [label=<<BR /> ID: k9.4 <BR />>]k13_2 [label=<<BR /> ID: k13.2 <BR />>]k8_5 [label=<<BR /> ID: k8.5 <BR />>]k11_2 [label=<<BR /> ID: k11.2 <BR />>]k10_1 [label=<<BR /> ID: k10.1 <BR />>]k12_7 [label=<<BR /> ID: k12.7 <BR />>]k11_6 [label=<<BR /> ID: k11.6 <BR />>]
+     fontsize="12" 
+     label = "Line 2 " 
+ }
+subgraph cluster_line_3 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k21_9 [label=<<BR /> ID: k21.9 <BR />>]k19_9 [label=<<BR /> ID: k19.9 <BR />>]k18_14 [label=<<BR /> ID: k18.14 <BR />>]k15_10 [label=<<BR /> ID: k15.10 <BR />>]k18_9 [label=<<BR /> ID: k18.9 <BR />>]k18_8 [label=<<BR /> ID: k18.8 <BR />>]k16_11 [label=<<BR /> ID: k16.11 <BR />>]k17_8 [label=<<BR /> ID: k17.8 <BR />>]k15_13 [label=<<BR /> ID: k15.13 <BR />>]k16_14 [label=<<BR /> ID: k16.14 <BR />>]k21_12 [label=<<BR /> ID: k21.12 <BR />>]k19_14 [label=<<BR /> ID: k19.14 <BR />>]k19_10 [label=<<BR /> ID: k19.10 <BR />>]k17_14 [label=<<BR /> ID: k17.14 <BR />>]k17_13 [label=<<BR /> ID: k17.13 <BR />>]k21_11 [label=<<BR /> ID: k21.11 <BR />>]k15_11 [label=<<BR /> ID: k15.11 <BR />>]k20_11 [label=<<BR /> ID: k20.11 <BR />>]k20_10 [label=<<BR /> ID: k20.10 <BR />>]k16_12 [label=<<BR /> ID: k16.12 <BR />>]k15_12 [label=<<BR /> ID: k15.12 <BR />>]k19_8 [label=<<BR /> ID: k19.8 <BR />>]k16_13 [label=<<BR /> ID: k16.13 <BR />>]k21_10 [label=<<BR /> ID: k21.10 <BR />>]k18_13 [label=<<BR /> ID: k18.13 <BR />>]k20_8 [label=<<BR /> ID: k20.8 <BR />>]k17_12 [label=<<BR /> ID: k17.12 <BR />>]k20_9 [label=<<BR /> ID: k20.9 <BR />>]
+     fontsize="12" 
+     label = "Line 3 " 
+ }
+subgraph cluster_line_4 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k28_15 [label=<<BR /> ID: k28.15 <BR />>]k28_19 [label=<<BR /> ID: k28.19 <BR />>]k27_15 [label=<<BR /> ID: k27.15 <BR />>]k23_20 [label=<<BR /> ID: k23.20 <BR />>]k22_21 [label=<<BR /> ID: k22.21 <BR />>]k27_17 [label=<<BR /> ID: k27.17 <BR />>]k24_19 [label=<<BR /> ID: k24.19 <BR />>]k25_15 [label=<<BR /> ID: k25.15 <BR />>]k27_16 [label=<<BR /> ID: k27.16 <BR />>]k22_19 [label=<<BR /> ID: k22.19 <BR />>]k26_17 [label=<<BR /> ID: k26.17 <BR />>]k22_18 [label=<<BR /> ID: k22.18 <BR />>]k26_15 [label=<<BR /> ID: k26.15 <BR />>]k25_20 [label=<<BR /> ID: k25.20 <BR />>]k23_18 [label=<<BR /> ID: k23.18 <BR />>]k26_16 [label=<<BR /> ID: k26.16 <BR />>]k22_17 [label=<<BR /> ID: k22.17 <BR />>]k22_20 [label=<<BR /> ID: k22.20 <BR />>]k25_21 [label=<<BR /> ID: k25.21 <BR />>]k25_16 [label=<<BR /> ID: k25.16 <BR />>]k28_16 [label=<<BR /> ID: k28.16 <BR />>]k24_15 [label=<<BR /> ID: k24.15 <BR />>]k23_21 [label=<<BR /> ID: k23.21 <BR />>]k28_17 [label=<<BR /> ID: k28.17 <BR />>]k27_18 [label=<<BR /> ID: k27.18 <BR />>]k28_18 [label=<<BR /> ID: k28.18 <BR />>]k26_21 [label=<<BR /> ID: k26.21 <BR />>]k24_21 [label=<<BR /> ID: k24.21 <BR />>]k23_19 [label=<<BR /> ID: k23.19 <BR />>]k24_20 [label=<<BR /> ID: k24.20 <BR />>]
+     fontsize="12" 
+     label = "Line 4 " 
+ }
+subgraph cluster_line_5 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k35_23 [label=<<BR /> ID: k35.23 <BR />>]k33_22 [label=<<BR /> ID: k33.22 <BR />>]k29_24 [label=<<BR /> ID: k29.24 <BR />>]k31_22 [label=<<BR /> ID: k31.22 <BR />>]k31_28 [label=<<BR /> ID: k31.28 <BR />>]k34_22 [label=<<BR /> ID: k34.22 <BR />>]k30_27 [label=<<BR /> ID: k30.27 <BR />>]k34_25 [label=<<BR /> ID: k34.25 <BR />>]k33_28 [label=<<BR /> ID: k33.28 <BR />>]k30_25 [label=<<BR /> ID: k30.25 <BR />>]k34_24 [label=<<BR /> ID: k34.24 <BR />>]k30_26 [label=<<BR /> ID: k30.26 <BR />>]k30_28 [label=<<BR /> ID: k30.28 <BR />>]k29_25 [label=<<BR /> ID: k29.25 <BR />>]k29_28 [label=<<BR /> ID: k29.28 <BR />>]k35_22 [label=<<BR /> ID: k35.22 <BR />>]k33_23 [label=<<BR /> ID: k33.23 <BR />>]k35_26 [label=<<BR /> ID: k35.26 <BR />>]k35_24 [label=<<BR /> ID: k35.24 <BR />>]k29_27 [label=<<BR /> ID: k29.27 <BR />>]k35_25 [label=<<BR /> ID: k35.25 <BR />>]k31_27 [label=<<BR /> ID: k31.27 <BR />>]k32_28 [label=<<BR /> ID: k32.28 <BR />>]k32_27 [label=<<BR /> ID: k32.27 <BR />>]k34_23 [label=<<BR /> ID: k34.23 <BR />>]k32_22 [label=<<BR /> ID: k32.22 <BR />>]k33_24 [label=<<BR /> ID: k33.24 <BR />>]k31_26 [label=<<BR /> ID: k31.26 <BR />>]k29_26 [label=<<BR /> ID: k29.26 <BR />>]k32_23 [label=<<BR /> ID: k32.23 <BR />>]
+     fontsize="12" 
+     label = "Line 5 " 
+ }
+subgraph cluster_line_6 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k37_35 [label=<<BR /> ID: k37.35 <BR />>]k42_33 [label=<<BR /> ID: k42.33 <BR />>]k38_34 [label=<<BR /> ID: k38.34 <BR />>]k42_31 [label=<<BR /> ID: k42.31 <BR />>]k38_35 [label=<<BR /> ID: k38.35 <BR />>]k37_34 [label=<<BR /> ID: k37.34 <BR />>]k41_32 [label=<<BR /> ID: k41.32 <BR />>]k36_32 [label=<<BR /> ID: k36.32 <BR />>]k39_29 [label=<<BR /> ID: k39.29 <BR />>]k39_30 [label=<<BR /> ID: k39.30 <BR />>]k39_35 [label=<<BR /> ID: k39.35 <BR />>]k41_29 [label=<<BR /> ID: k41.29 <BR />>]k42_30 [label=<<BR /> ID: k42.30 <BR />>]k37_32 [label=<<BR /> ID: k37.32 <BR />>]k40_35 [label=<<BR /> ID: k40.35 <BR />>]k36_33 [label=<<BR /> ID: k36.33 <BR />>]k40_29 [label=<<BR /> ID: k40.29 <BR />>]k37_33 [label=<<BR /> ID: k37.33 <BR />>]k40_31 [label=<<BR /> ID: k40.31 <BR />>]k38_33 [label=<<BR /> ID: k38.33 <BR />>]k36_31 [label=<<BR /> ID: k36.31 <BR />>]k39_34 [label=<<BR /> ID: k39.34 <BR />>]k40_30 [label=<<BR /> ID: k40.30 <BR />>]k41_31 [label=<<BR /> ID: k41.31 <BR />>]k42_32 [label=<<BR /> ID: k42.32 <BR />>]k36_34 [label=<<BR /> ID: k36.34 <BR />>]k41_30 [label=<<BR /> ID: k41.30 <BR />>]k38_29 [label=<<BR /> ID: k38.29 <BR />>]
+     fontsize="12" 
+     label = "Line 6 " 
+ }
+subgraph cluster_line_7 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k49_40 [label=<<BR /> ID: k49.40 <BR />>]k49_39 [label=<<BR /> ID: k49.39 <BR />>]k47_42 [label=<<BR /> ID: k47.42 <BR />>]k44_39 [label=<<BR /> ID: k44.39 <BR />>]k46_42 [label=<<BR /> ID: k46.42 <BR />>]k43_39 [label=<<BR /> ID: k43.39 <BR />>]k46_41 [label=<<BR /> ID: k46.41 <BR />>]k47_38 [label=<<BR /> ID: k47.38 <BR />>]k44_40 [label=<<BR /> ID: k44.40 <BR />>]k45_42 [label=<<BR /> ID: k45.42 <BR />>]k49_37 [label=<<BR /> ID: k49.37 <BR />>]k43_38 [label=<<BR /> ID: k43.38 <BR />>]k43_41 [label=<<BR /> ID: k43.41 <BR />>]k49_38 [label=<<BR /> ID: k49.38 <BR />>]k47_37 [label=<<BR /> ID: k47.37 <BR />>]k48_36 [label=<<BR /> ID: k48.36 <BR />>]k45_40 [label=<<BR /> ID: k45.40 <BR />>]k46_36 [label=<<BR /> ID: k46.36 <BR />>]k48_39 [label=<<BR /> ID: k48.39 <BR />>]k48_37 [label=<<BR /> ID: k48.37 <BR />>]k45_36 [label=<<BR /> ID: k45.36 <BR />>]k44_41 [label=<<BR /> ID: k44.41 <BR />>]k47_36 [label=<<BR /> ID: k47.36 <BR />>]k45_41 [label=<<BR /> ID: k45.41 <BR />>]k43_40 [label=<<BR /> ID: k43.40 <BR />>]k44_42 [label=<<BR /> ID: k44.42 <BR />>]k48_38 [label=<<BR /> ID: k48.38 <BR />>]k46_37 [label=<<BR /> ID: k46.37 <BR />>]
+     fontsize="12" 
+     label = "Line 7 " 
+ }
+subgraph cluster_line_8 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k50_43 [label=<<BR /> ID: k50.43 <BR />>]k50_48 [label=<<BR /> ID: k50.48 <BR />>]k50_44 [label=<<BR /> ID: k50.44 <BR />>]k50_47 [label=<<BR /> ID: k50.47 <BR />>]k50_49 [label=<<BR /> ID: k50.49 <BR />>]k50_46 [label=<<BR /> ID: k50.46 <BR />>]k50_45 [label=<<BR /> ID: k50.45 <BR />>]
+     fontsize="12" 
+     label = "Line 8 " 
+ }
+k0_ROOT -> k6_0 
+k0_ROOT -> k2_0 
+k0_ROOT -> k3_0 
+k0_ROOT -> k1_0 
+k0_ROOT -> k4_0 
+k0_ROOT -> k5_0 
+k0_ROOT -> k7_0 
+k6_0 -> k9_6 
+k6_0 -> k10_6 
+k6_0 -> k8_6 
+k6_0 -> k11_6 
+k3_0 -> k14_3 
+k3_0 -> k13_3 
+k3_0 -> k12_3 
+k3_0 -> k8_3 
+k2_0 -> k13_2 
+k2_0 -> k12_2 
+k2_0 -> k11_2 
+k2_0 -> k14_2 
+k1_0 -> k13_1 
+k1_0 -> k11_1 
+k1_0 -> k10_1 
+k1_0 -> k12_1 
+k4_0 -> k14_4 
+k4_0 -> k8_4 
+k4_0 -> k9_4 
+k4_0 -> k13_4 
+k5_0 -> k14_5 
+k5_0 -> k10_5 
+k5_0 -> k8_5 
+k5_0 -> k9_5 
+k7_0 -> k10_7 
+k7_0 -> k9_7 
+k7_0 -> k11_7 
+k7_0 -> k12_7 
+k14_5 -> k16_14 
+k14_4 -> k19_14 
+k14_4 -> k17_14 
+k10_7 -> k20_10 
+k8_4 -> k19_8 
+k8_4 -> k17_8 
+k12_2 -> k15_12 
+k12_2 -> k21_12 
+k12_2 -> k17_12 
+k11_7 -> k15_11 
+k13_1 -> k18_13 
+k9_5 -> k20_9 
+k10_6 -> k15_10 
+k10_6 -> k21_10 
+k10_6 -> k19_10 
+k9_6 -> k19_9 
+k14_2 -> k19_14 
+k12_1 -> k16_12 
+k8_3 -> k20_8 
+k14_3 -> k16_14 
+k14_3 -> k18_14 
+k13_3 -> k16_13 
+k13_4 -> k15_13 
+k10_5 -> k15_10 
+k9_7 -> k18_9 
+k11_1 -> k21_11 
+k12_3 -> k21_12 
+k8_6 -> k17_8 
+k9_4 -> k21_9 
+k13_2 -> k17_13 
+k8_5 -> k20_8 
+k8_5 -> k18_8 
+k11_2 -> k15_11 
+k11_2 -> k20_11 
+k10_1 -> k19_10 
+k12_7 -> k17_12 
+k11_6 -> k21_11 
+k11_6 -> k16_11 
+k21_9 -> k26_21 
+k19_9 -> k22_19 
+k18_14 -> k22_18 
+k15_10 -> k27_15 
+k15_10 -> k25_15 
+k18_9 -> k27_18 
+k18_8 -> k28_18 
+k16_11 -> k28_16 
+k17_8 -> k26_17 
+k17_8 -> k27_17 
+k15_13 -> k24_15 
+k16_14 -> k25_16 
+k16_14 -> k27_16 
+k21_12 -> k25_21 
+k21_12 -> k23_21 
+k19_14 -> k24_19 
+k19_14 -> k23_19 
+k19_10 -> k28_19 
+k17_14 -> k27_17 
+k17_13 -> k28_17 
+k21_11 -> k22_21 
+k21_11 -> k24_21 
+k15_11 -> k28_15 
+k15_11 -> k26_15 
+k20_11 -> k22_20 
+k20_10 -> k23_20 
+k16_12 -> k27_16 
+k15_12 -> k25_15 
+k19_8 -> k23_19 
+k16_13 -> k26_16 
+k21_10 -> k25_21 
+k18_13 -> k23_18 
+k20_8 -> k23_20 
+k20_8 -> k25_20 
+k17_12 -> k22_17 
+k20_9 -> k24_20 
+k28_15 -> k33_28 
+k28_19 -> k30_28 
+k28_19 -> k29_28 
+k27_15 -> k32_27 
+k23_20 -> k33_23 
+k22_21 -> k31_22 
+k27_17 -> k30_27 
+k24_19 -> k29_24 
+k25_15 -> k35_25 
+k27_16 -> k31_27 
+k22_19 -> k32_22 
+k26_17 -> k35_26 
+k22_18 -> k33_22 
+k26_15 -> k30_26 
+k25_20 -> k30_25 
+k23_18 -> k35_23 
+k26_16 -> k29_26 
+k22_17 -> k34_22 
+k22_17 -> k35_22 
+k22_20 -> k31_22 
+k25_21 -> k29_25 
+k25_16 -> k34_25 
+k28_16 -> k33_28 
+k24_15 -> k33_24 
+k23_21 -> k32_23 
+k28_17 -> k32_28 
+k27_18 -> k29_27 
+k28_18 -> k31_28 
+k26_21 -> k31_26 
+k24_21 -> k34_24 
+k23_19 -> k34_23 
+k24_20 -> k35_24 
+k35_23 -> k40_35 
+k33_22 -> k37_33 
+k29_24 -> k41_29 
+k31_22 -> k40_31 
+k31_28 -> k41_31 
+k34_22 -> k39_34 
+k30_27 -> k40_30 
+k30_27 -> k42_30 
+k34_25 -> k36_34 
+k33_28 -> k38_33 
+k30_25 -> k42_30 
+k34_24 -> k37_34 
+k30_26 -> k41_30 
+k30_28 -> k39_30 
+k29_25 -> k40_29 
+k29_25 -> k38_29 
+k29_28 -> k39_29 
+k35_22 -> k39_35 
+k33_23 -> k36_33 
+k33_23 -> k42_33 
+k35_26 -> k37_35 
+k35_24 -> k39_35 
+k29_27 -> k38_29 
+k35_25 -> k38_35 
+k35_25 -> k40_35 
+k31_27 -> k42_31 
+k31_27 -> k36_31 
+k32_28 -> k36_32 
+k32_27 -> k37_32 
+k34_23 -> k36_34 
+k34_23 -> k38_34 
+k32_22 -> k42_32 
+k33_24 -> k42_33 
+k31_26 -> k36_31 
+k29_26 -> k39_29 
+k32_23 -> k41_32 
+k37_35 -> k46_37 
+k42_33 -> k46_42 
+k42_33 -> k44_42 
+k38_34 -> k49_38 
+k42_31 -> k46_42 
+k38_35 -> k48_38 
+k37_34 -> k47_37 
+k41_32 -> k43_41 
+k36_32 -> k47_36 
+k39_29 -> k44_39 
+k39_29 -> k49_39 
+k39_30 -> k48_39 
+k39_35 -> k43_39 
+k39_35 -> k48_39 
+k41_29 -> k46_41 
+k42_30 -> k47_42 
+k42_30 -> k45_42 
+k37_32 -> k49_37 
+k40_35 -> k44_40 
+k40_35 -> k45_40 
+k36_33 -> k46_36 
+k40_29 -> k44_40 
+k37_33 -> k48_37 
+k40_31 -> k49_40 
+k40_31 -> k44_40 
+k38_33 -> k43_38 
+k38_33 -> k48_38 
+k36_31 -> k48_36 
+k36_31 -> k46_36 
+k39_34 -> k44_39 
+k40_30 -> k43_40 
+k41_31 -> k44_41 
+k42_32 -> k45_42 
+k36_34 -> k45_36 
+k36_34 -> k47_36 
+k41_30 -> k45_41 
+k38_29 -> k47_38 
+k38_29 -> k48_38 
+k49_40 -> k50_49 
+k49_39 -> k50_49 
+k47_42 -> k50_47 
+k44_39 -> k50_44 
+k46_42 -> k50_46 
+k43_39 -> k50_43 
+k46_41 -> k50_46 
+k47_38 -> k50_47 
+k44_40 -> k50_44 
+k45_42 -> k50_45 
+k49_37 -> k50_49 
+k43_38 -> k50_43 
+k43_41 -> k50_43 
+k49_38 -> k50_49 
+k47_37 -> k50_47 
+k48_36 -> k50_48 
+k45_40 -> k50_45 
+k46_36 -> k50_46 
+k48_39 -> k50_48 
+k48_37 -> k50_48 
+k45_36 -> k50_45 
+k44_41 -> k50_44 
+k47_36 -> k50_47 
+k45_41 -> k50_45 
+k43_40 -> k50_43 
+k44_42 -> k50_44 
+k48_38 -> k50_48 
+k46_37 -> k50_46 
+}
