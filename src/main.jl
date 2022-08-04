@@ -44,3 +44,11 @@ using Main.NQueens.PathReader
 
 using Main.NQueens.PathExpReader: PathSolutionExpReader
 using Main.NQueens.PathExpReader
+
+
+using Main.NQueens.NQueensInstance: Instance
+using Main.NQueens.NQueensInstance
+
+using Main.NQueens.Checker
+using Main.NQueens.NQueensMachine: Machine
+using Main.NQueens.NQueensMachine

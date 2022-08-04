@@ -2,6 +2,13 @@
   using Main.NQueens.GraphQueensSet: GQueensSet
   using Main.NQueens.GraphQueensSet
 
+  using Main.NQueens.PathReader: PathSolutionReader
+  using Main.NQueens.PathReader
+
+  using Main.NQueens.PathExpReader: PathSolutionExpReader
+  using Main.NQueens.PathExpReader
+
+
   # init!(queens_set_a)
 
   function init!(queens_set :: GQueensSet)
@@ -29,6 +36,23 @@
     return GraphQueensSet.is_empty(queens_set)
   end
 
-  function read(queens_set :: GQueensSet, limit :: Int64) :: Array{Array{Color},1}
-      throw("READ NOT IMPLEMENTED...")
+  function read(queens_set :: GQueensSet, limit :: Int64) :: Array{Array{Color,1},1}
+      certificates = Array{Array{Color,1},1}()
+      if is_valid(queens_set)
+        if limit == 1
+          reader = PathReader.new(queens_set)
+          PathReader.calc!(reader)
+          route = PathReader.get_configuration(reader)
+          push!(certificates, route)
+        else
+          reader_exp = PathExpReader.new(queens_set, UInt128(limit))
+          PathExpReader.calc!(reader_exp)
+          for reader in reader_exp.paths_solution
+            route = PathReader.get_configuration(reader)
+            push!(certificates, route)
+          end
+        end
+      end
+
+      return certificates
   end
