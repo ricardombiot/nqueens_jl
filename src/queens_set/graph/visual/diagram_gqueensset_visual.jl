@@ -67,6 +67,9 @@ module DiagramGraphQueensSet
         key = Alias.as_key(path_id_node)
         key_node = get_key_node(path_id_node)
         title = ""
+        node = GraphQueensSet.get_node(diagram.graph, path_id_node)
+        parents_nodes_txt = to_list(node.parents)
+        sons_nodes_txt = to_list(node.sons)
         #list_requires = to_list(node.requires)
         #list_using_me = to_list(node.using_me)
 
@@ -74,8 +77,8 @@ module DiagramGraphQueensSet
         #node_label_html *= "Using: [$list_using_me]<BR />"
 
         #node_label_html *= "Requires: [$list_requires] <BR />"
-        #node_label_html *= "<BR /><FONT POINT-SIZE=\"8\">Parents: $parents_nodes_txt</FONT>"
-        #node_label_html *= "<BR /><FONT POINT-SIZE=\"8\">Sons: $sons_nodes_txt</FONT>"
+        node_label_html *= "<BR /><FONT POINT-SIZE=\"8\">Parents: $parents_nodes_txt</FONT>"
+        node_label_html *= "<BR /><FONT POINT-SIZE=\"8\">Sons: $sons_nodes_txt</FONT>"
         #node_label_html *= owners_html
 
         #node_label_html *= draw_owners_by_step(diagram, path_id_node)

@@ -1,0 +1,83 @@
+digraph G {
+     compound=true 
+subgraph cluster_line_0 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k0_ROOT [label=<<BR /> ID: k0.ROOT <BR /><BR /><FONT POINT-SIZE="8">Parents: </FONT><BR /><FONT POINT-SIZE="8">Sons: k6.0,</FONT>>]
+     fontsize="12" 
+     label = "Line 0 " 
+ }
+subgraph cluster_line_1 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k6_0 [label=<<BR /> ID: k6.0 <BR /><BR /><FONT POINT-SIZE="8">Parents: k0.ROOT,</FONT><BR /><FONT POINT-SIZE="8">Sons: k9.6,</FONT>>]
+     fontsize="12" 
+     label = "Line 1 " 
+ }
+subgraph cluster_line_2 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k9_6 [label=<<BR /> ID: k9.6 <BR /><BR /><FONT POINT-SIZE="8">Parents: k6.0,</FONT><BR /><FONT POINT-SIZE="8">Sons: k19.9,</FONT>>]
+     fontsize="12" 
+     label = "Line 2 " 
+ }
+subgraph cluster_line_3 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k19_9 [label=<<BR /> ID: k19.9 <BR /><BR /><FONT POINT-SIZE="8">Parents: k9.6,</FONT><BR /><FONT POINT-SIZE="8">Sons: k22.19,</FONT>>]
+     fontsize="12" 
+     label = "Line 3 " 
+ }
+subgraph cluster_line_4 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k22_19 [label=<<BR /> ID: k22.19 <BR /><BR /><FONT POINT-SIZE="8">Parents: k19.9,</FONT><BR /><FONT POINT-SIZE="8">Sons: k32.22,</FONT>>]
+     fontsize="12" 
+     label = "Line 4 " 
+ }
+subgraph cluster_line_5 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k32_22 [label=<<BR /> ID: k32.22 <BR /><BR /><FONT POINT-SIZE="8">Parents: k22.19,</FONT><BR /><FONT POINT-SIZE="8">Sons: k42.32,</FONT>>]
+     fontsize="12" 
+     label = "Line 5 " 
+ }
+subgraph cluster_line_6 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k42_32 [label=<<BR /> ID: k42.32 <BR /><BR /><FONT POINT-SIZE="8">Parents: k32.22,</FONT><BR /><FONT POINT-SIZE="8">Sons: k45.42,</FONT>>]
+     fontsize="12" 
+     label = "Line 6 " 
+ }
+subgraph cluster_line_7 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k45_42 [label=<<BR /> ID: k45.42 <BR /><BR /><FONT POINT-SIZE="8">Parents: k42.32,</FONT><BR /><FONT POINT-SIZE="8">Sons: k50.45,</FONT>>]
+     fontsize="12" 
+     label = "Line 7 " 
+ }
+subgraph cluster_line_8 {
+ style=filled;
+ color=lightgrey; 
+     node [style=filled,color=white]; 
+k50_45 [label=<<BR /> ID: k50.45 <BR /><BR /><FONT POINT-SIZE="8">Parents: k45.42,</FONT><BR /><FONT POINT-SIZE="8">Sons: </FONT>>]
+     fontsize="12" 
+     label = "Line 8 " 
+ }
+k0_ROOT -> k6_0 
+k6_0 -> k9_6 
+k9_6 -> k19_9 
+k19_9 -> k22_19 
+k22_19 -> k32_22 
+k32_22 -> k42_32 
+k42_32 -> k45_42 
+k45_42 -> k50_45 
+}
