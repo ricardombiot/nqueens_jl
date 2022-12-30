@@ -15,12 +15,16 @@ include("./../src/main.jl")
     =#
 
 
-
-
-    @time @testset "GQueensGraph" begin
+    #@time @testset "GQueensGraph" begin
         #include("./queens_set_graph/test_visual_wrong_configuration.jl")
         #include("./queens_set_graph/test_visual_certificate_configuration.jl")
-        include("./queens_set_graph/test_execution_gqueens_set.jl")
+    #    include("./queens_set_graph/test_execution_gqueens_set.jl")
         #include("./queens_set_graph/test_execution_gqueens_set_n4.jl")
+    #end
+
+    @time @testset "NQueensMachine" begin
+        #include("./machine/test_instances.jl")
+        include("./machine/test_machine.jl")
     end
+
 end

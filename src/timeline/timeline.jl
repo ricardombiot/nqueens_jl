@@ -87,4 +87,9 @@ module Timeline
         cell_selected.was_success_executed = true
     end
 
+    function blocked_cell!(timeline :: TimelineTable, color :: Color)
+        cell_selected = get_cell(timeline,color)
+        cell_selected.is_blocked = true
+    end
+
 end

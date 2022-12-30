@@ -25,5 +25,9 @@ module NQueens
     include("./db_actions/db_execute_action.jl")
 
 
+    include("./nqueens_machine/instance.jl")
+    include("./nqueens_machine/checker.jl")
+    include("./nqueens_machine/machine.jl")
+
 
 end # module

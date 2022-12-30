@@ -31,11 +31,13 @@ module TimelinePropagation
     end
 
     function send_as_parents!(timeline :: TimelineTable, set_aceptation_colors :: Set{Color}, cell_origin :: TimelineCellData)
-        parent_action_id = cell_origin.action_id
-        next_step = cell_origin.step + 1
-        for (color_candidate, cell_candidate) in timeline.table[next_step]
-            if color_candidate in set_aceptation_colors
-                TimelineCell.push_parent!(cell_candidate, parent_action_id)
+        if !cell_origin.is_blocked
+            parent_action_id = cell_origin.action_id
+            next_step = cell_origin.step + 1
+            for (color_candidate, cell_candidate) in timeline.table[next_step]
+                if color_candidate in set_aceptation_colors
+                    TimelineCell.push_parent!(cell_candidate, parent_action_id)
+                end
             end
         end
     end
